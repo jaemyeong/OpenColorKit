@@ -11,7 +11,7 @@ let package = Package(
         .library(name: "OpenColorKit", targets: ["OpenColorKit"]),
     ],
     targets: [
-        .target(name: "OpenColorKit"),
+        .target(name: "OpenColorKit", resources: [.process("Resources")]),
         .testTarget(name: "OpenColorKitTests", dependencies: ["OpenColorKit"])
     ]
 )
