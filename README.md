@@ -48,4 +48,4 @@ let color = OpenColor.gray.gray0.color
 
 ## Author
 
-Jaemyeong Jin
+[Jaemyeong Jin](https://github.com/jaemyeong) ([jaemyeong@me.com](mailto:jaemyeong@me.com))
