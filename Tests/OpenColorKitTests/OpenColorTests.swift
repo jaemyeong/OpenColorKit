@@ -3,11 +3,11 @@ import XCTest
 @testable import OpenColorKit
 
 public final class OpenColorTests: XCTestCase {
-    public func testBlack() throws {
+    public func testBlack() {
         XCTAssertNotNil(OpenColor.black.color)
     }
     
-    public func testWhite() throws {
+    public func testWhite() {
         XCTAssertNotNil(OpenColor.white.color)
     }
 }

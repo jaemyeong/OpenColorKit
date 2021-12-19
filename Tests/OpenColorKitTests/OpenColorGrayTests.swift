@@ -3,43 +3,43 @@ import XCTest
 @testable import OpenColorKit
 
 public final class OpenColorGrayTests: XCTestCase {
-    public func testGray0() throws {
-        XCTAssertNotNil(OpenColor.gray0.color)
+    public func testGray0() {
+        XCTAssertNotNil(OpenColor.gray.gray0.color)
     }
 
-    public func testGray1() throws {
-        XCTAssertNotNil(OpenColor.gray1.color)
+    public func testGray1() {
+        XCTAssertNotNil(OpenColor.gray.gray1.color)
     }
 
-    public func testGray2() throws {
-        XCTAssertNotNil(OpenColor.gray2.color)
+    public func testGray2() {
+        XCTAssertNotNil(OpenColor.gray.gray2.color)
     }
 
-    public func testGray3() throws {
-        XCTAssertNotNil(OpenColor.gray3.color)
+    public func testGray3() {
+        XCTAssertNotNil(OpenColor.gray.gray3.color)
     }
 
-    public func testGray4() throws {
-        XCTAssertNotNil(OpenColor.gray4.color)
+    public func testGray4() {
+        XCTAssertNotNil(OpenColor.gray.gray4.color)
     }
 
-    public func testGray5() throws {
-        XCTAssertNotNil(OpenColor.gray5.color)
+    public func testGray5() {
+        XCTAssertNotNil(OpenColor.gray.gray5.color)
     }
 
-    public func testGray6() throws {
-        XCTAssertNotNil(OpenColor.gray6.color)
+    public func testGray6() {
+        XCTAssertNotNil(OpenColor.gray.gray6.color)
     }
 
-    public func testGray7() throws {
-        XCTAssertNotNil(OpenColor.gray7.color)
+    public func testGray7() {
+        XCTAssertNotNil(OpenColor.gray.gray7.color)
     }
 
-    public func testGray8() throws {
-        XCTAssertNotNil(OpenColor.gray8.color)
+    public func testGray8() {
+        XCTAssertNotNil(OpenColor.gray.gray8.color)
     }
 
-    public func testGray9() throws {
-        XCTAssertNotNil(OpenColor.gray9.color)
+    public func testGray9() {
+        XCTAssertNotNil(OpenColor.gray.gray9.color)
     }
 }

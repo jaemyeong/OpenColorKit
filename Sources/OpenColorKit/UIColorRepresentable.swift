@@ -11,6 +11,13 @@ extension OpenColor: UIColorRepresentable {
             return UIColor(named: "Black", in: Bundle.module, compatibleWith: nil)
         case .white:
             return UIColor(named: "White", in: Bundle.module, compatibleWith: nil)
+        }
+    }
+}
+
+extension OpenColorGray: UIColorRepresentable {
+    public var color: UIColor? {
+        switch self {
         case .gray0:
             return UIColor(named: "Gray/Gray0", in: Bundle.module, compatibleWith: nil)
         case .gray1:
@@ -31,6 +38,13 @@ extension OpenColor: UIColorRepresentable {
             return UIColor(named: "Gray/Gray8", in: Bundle.module, compatibleWith: nil)
         case .gray9:
             return UIColor(named: "Gray/Gray9", in: Bundle.module, compatibleWith: nil)
+        }
+    }
+}
+
+extension OpenColorRed: UIColorRepresentable {
+    public var color: UIColor? {
+        switch self {
         case .red0:
             return UIColor(named: "Red/Red0", in: Bundle.module, compatibleWith: nil)
         case .red1:
@@ -51,6 +65,13 @@ extension OpenColor: UIColorRepresentable {
             return UIColor(named: "Red/Red8", in: Bundle.module, compatibleWith: nil)
         case .red9:
             return UIColor(named: "Red/Red9", in: Bundle.module, compatibleWith: nil)
+        }
+    }
+}
+
+extension OpenColorPink: UIColorRepresentable {
+    public var color: UIColor? {
+        switch self {
         case .pink0:
             return UIColor(named: "Pink/Pink0", in: Bundle.module, compatibleWith: nil)
         case .pink1:
@@ -71,6 +92,13 @@ extension OpenColor: UIColorRepresentable {
             return UIColor(named: "Pink/Pink8", in: Bundle.module, compatibleWith: nil)
         case .pink9:
             return UIColor(named: "Pink/Pink9", in: Bundle.module, compatibleWith: nil)
+        }
+    }
+}
+
+extension OpenColorGrape: UIColorRepresentable {
+    public var color: UIColor? {
+        switch self {
         case .grape0:
             return UIColor(named: "Grape/Grape0", in: Bundle.module, compatibleWith: nil)
         case .grape1:
@@ -91,6 +119,13 @@ extension OpenColor: UIColorRepresentable {
             return UIColor(named: "Grape/Grape8", in: Bundle.module, compatibleWith: nil)
         case .grape9:
             return UIColor(named: "Grape/Grape9", in: Bundle.module, compatibleWith: nil)
+        }
+    }
+}
+
+extension OpenColorViolet: UIColorRepresentable {
+    public var color: UIColor? {
+        switch self {
         case .violet0:
             return UIColor(named: "Violet/Violet0", in: Bundle.module, compatibleWith: nil)
         case .violet1:
@@ -111,6 +146,13 @@ extension OpenColor: UIColorRepresentable {
             return UIColor(named: "Violet/Violet8", in: Bundle.module, compatibleWith: nil)
         case .violet9:
             return UIColor(named: "Violet/Violet9", in: Bundle.module, compatibleWith: nil)
+        }
+    }
+}
+
+extension OpenColorIndigo: UIColorRepresentable {
+    public var color: UIColor? {
+        switch self {
         case .indigo0:
             return UIColor(named: "Indigo/Indigo0", in: Bundle.module, compatibleWith: nil)
         case .indigo1:
@@ -131,6 +173,13 @@ extension OpenColor: UIColorRepresentable {
             return UIColor(named: "Indigo/Indigo8", in: Bundle.module, compatibleWith: nil)
         case .indigo9:
             return UIColor(named: "Indigo/Indigo9", in: Bundle.module, compatibleWith: nil)
+        }
+    }
+}
+
+extension OpenColorBlue: UIColorRepresentable {
+    public var color: UIColor? {
+        switch self {
         case .blue0:
             return UIColor(named: "Blue/Blue0", in: Bundle.module, compatibleWith: nil)
         case .blue1:
@@ -151,6 +200,13 @@ extension OpenColor: UIColorRepresentable {
             return UIColor(named: "Blue/Blue8", in: Bundle.module, compatibleWith: nil)
         case .blue9:
             return UIColor(named: "Blue/Blue9", in: Bundle.module, compatibleWith: nil)
+        }
+    }
+}
+
+extension OpenColorCyan: UIColorRepresentable {
+    public var color: UIColor? {
+        switch self {
         case .cyan0:
             return UIColor(named: "Cyan/Cyan0", in: Bundle.module, compatibleWith: nil)
         case .cyan1:
@@ -171,6 +227,13 @@ extension OpenColor: UIColorRepresentable {
             return UIColor(named: "Cyan/Cyan8", in: Bundle.module, compatibleWith: nil)
         case .cyan9:
             return UIColor(named: "Cyan/Cyan9", in: Bundle.module, compatibleWith: nil)
+        }
+    }
+}
+
+extension OpenColorTeal: UIColorRepresentable {
+    public var color: UIColor? {
+        switch self {
         case .teal0:
             return UIColor(named: "Teal/Teal0", in: Bundle.module, compatibleWith: nil)
         case .teal1:
@@ -191,6 +254,13 @@ extension OpenColor: UIColorRepresentable {
             return UIColor(named: "Teal/Teal8", in: Bundle.module, compatibleWith: nil)
         case .teal9:
             return UIColor(named: "Teal/Teal9", in: Bundle.module, compatibleWith: nil)
+        }
+    }
+}
+
+extension OpenColorGreen: UIColorRepresentable {
+    public var color: UIColor? {
+        switch self {
         case .green0:
             return UIColor(named: "Green/Green0", in: Bundle.module, compatibleWith: nil)
         case .green1:
@@ -211,6 +281,13 @@ extension OpenColor: UIColorRepresentable {
             return UIColor(named: "Green/Green8", in: Bundle.module, compatibleWith: nil)
         case .green9:
             return UIColor(named: "Green/Green9", in: Bundle.module, compatibleWith: nil)
+        }
+    }
+}
+
+extension OpenColorLime: UIColorRepresentable {
+    public var color: UIColor? {
+        switch self {
         case .lime0:
             return UIColor(named: "Lime/Lime0", in: Bundle.module, compatibleWith: nil)
         case .lime1:
@@ -231,6 +308,13 @@ extension OpenColor: UIColorRepresentable {
             return UIColor(named: "Lime/Lime8", in: Bundle.module, compatibleWith: nil)
         case .lime9:
             return UIColor(named: "Lime/Lime9", in: Bundle.module, compatibleWith: nil)
+        }
+    }
+}
+
+extension OpenColorYellow: UIColorRepresentable {
+    public var color: UIColor? {
+        switch self {
         case .yellow0:
             return UIColor(named: "Yellow/Yellow0", in: Bundle.module, compatibleWith: nil)
         case .yellow1:
@@ -251,6 +335,13 @@ extension OpenColor: UIColorRepresentable {
             return UIColor(named: "Yellow/Yellow8", in: Bundle.module, compatibleWith: nil)
         case .yellow9:
             return UIColor(named: "Yellow/Yellow9", in: Bundle.module, compatibleWith: nil)
+        }
+    }
+}
+
+extension OpenColorOrange: UIColorRepresentable {
+    public var color: UIColor? {
+        switch self {
         case .orange0:
             return UIColor(named: "Orange/Orange0", in: Bundle.module, compatibleWith: nil)
         case .orange1:
