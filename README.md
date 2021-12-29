@@ -6,36 +6,25 @@ OpenColorKit은 [OpenColor](https://yeun.github.io/open-color/) 1.9.1 버전 기
 
 ## Requirements
 
-- Xcode 13.2.1+
-- Swift 5.5+
+- Xcode 13.2.1⁺
+- Swift 5.5⁺
 
 ## Installation
 
 ### Swift Package Manager
 
 ```swift
-// swift-tools-version:5.5
-
-import PackageDescription
-
-let package = Package(
-    name: "MyPackage",
-    dependencies: [
-        .package(url: "https://github.com/jaemyeong/OpenColorKit.git", .upToNextMajor(from: "0.1.0"))
-    ],
-    targets: [
-        .target(name: "MyPackage", dependencies: ["OpenColorKit"]),
-    ]
-)
-
+.package(url: "https://github.com/jaemyeong/OpenColorKit.git", .upToNextMajor(from: "0.1.4"))
 ```
 
 ## Usage
 
 ```swift
+import UIKit
+
 import OpenColorKit
 
-let color = OpenColor.gray.gray0.color
+let color: UIColor? = .openColor.gray.gray0.color
 ```
 
 ## References
