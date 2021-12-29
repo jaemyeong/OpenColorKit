@@ -4,6 +4,12 @@ public protocol UIColorRepresentable {
     var color: UIColor? { get }
 }
 
+extension UIColor {
+    public class var openColor: OpenColor.Type {
+        OpenColor.self
+    }
+}
+
 extension OpenColor: UIColorRepresentable {
     public var color: UIColor? {
         switch self {
